@@ -7,14 +7,41 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 .header {
   height: 100vh;
+  width: 100vw;
   min-height: 600px;
   max-height: 756px;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   /* parameters for the header section */
 }
+
+.logo {
+  width: 154px;
+  height: 31px;
+}
+
+.logo_place_header{
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 20;
+}
+
+.header__title{
+  display: flex;
+  width: 730px;
+  margin-left: 64px;
+  position: relative;
+  z-index: 40;
+}
+
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
