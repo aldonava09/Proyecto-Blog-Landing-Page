@@ -42,6 +42,12 @@
   z-index: 40;
 }
 
+.header__subtitle{
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
