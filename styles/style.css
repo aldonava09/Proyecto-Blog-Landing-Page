@@ -41,7 +41,7 @@ div{
   display: flex;
   width: 730px;
   margin-left: 64px;
-  position: relative;
+  position: absolute;
   z-index: 40;
   line-height: 96px;
   font-size: 42px;
@@ -63,10 +63,18 @@ div{
   text-decoration: none;
 }
 
+.header__main-illustration{
+  height: 608px;
+  width: 756px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
+
 }
 
 /* including elements with key-value modifiers */
