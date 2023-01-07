@@ -7,9 +7,12 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  box-sizing: border-box;
 
 }
-
+div{
+  outline: 2px solid red;
+}
 .header {
   height: 100vh;
   width: 100vw;
@@ -40,6 +43,9 @@
   margin-left: 64px;
   position: relative;
   z-index: 40;
+  line-height: 96px;
+  font-size: 42px;
+  font-weight: bold;
 }
 
 .header__subtitle{
@@ -47,6 +53,14 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: normal;
+
+}
+
+.header__link{
+  text-decoration: none;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
