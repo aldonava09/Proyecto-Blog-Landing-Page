@@ -40,6 +40,7 @@ div{
 .header__title{
   display: flex;
   width: 730px;
+  height: max-content;
   margin-left: 64px;
   position: absolute;
   z-index: 40;
@@ -54,12 +55,13 @@ div{
   left: 64px;
   bottom: 30px;
   line-height: 25px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: normal;
 
 }
 
 .header__link{
+  font-size:  12px;
   text-decoration: none;
 }
 
@@ -69,11 +71,17 @@ div{
   position: absolute;
   bottom: 0px;
   right: 0px;
+  z-index: 60;
 }
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2F80ED;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  z-index: 50;
 
 }
 
