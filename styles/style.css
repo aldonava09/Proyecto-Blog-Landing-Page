@@ -23,81 +23,10 @@
 
 
 
+/* techniques imports at-rules*/
+@import url(../Blocks/techniques/techniques.css);
 
-
-
-
-.digits{
-  position: relative;
-  margin: auto;
-  margin-bottom: 100px;
-}
-
-.section__title{
-  display: flex;
-  margin: auto;
-  width: 60%;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.section__title--text{
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  padding: 0;
-}
-
-.section__subtitle{
-  display: flex;
-  margin: auto;
-  width: 60%;
-  justify-content: center;
-  margin-bottom: 60px;
-}
-
-.section__subtitle--text{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  padding: 0;
-}
-
-.table__list{
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
-
-.table__ul{
-  padding: 0px;
-  width: 1100px;
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-}
-
-.table__ul-second-row{
-  margin-top: 60px;
-}
-
-.table__cell{
-  width: 250px;
-}
-
-.table__heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.table__text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin-top: 20px;
-}
+/* feynman*/
 
 .feynman{
   height: 790px;
@@ -147,6 +76,59 @@
   bottom: 0;
   z-index: -1;
 }
+
+
+
+
+/* digits imports at-rules*/
+@import url(../section-title/section__title.css);
+@import url(../section-title/__text/section__title-text.css);
+@import url(../section-subtitle/section__subtitle.css);
+@import url(../section-subtitle/__text/section__subtitle-text.css);
+
+.digits{
+  position: relative;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+
+.table__list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.table__ul{
+  padding: 0px;
+  width: 1100px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.table__ul-second-row{
+  margin-top: 60px;
+}
+
+.table__cell{
+  width: 250px;
+}
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
 
 .kaufman{
   background-color: #1F1F1F;
