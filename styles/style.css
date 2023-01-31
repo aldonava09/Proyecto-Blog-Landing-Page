@@ -13,55 +13,19 @@
 
 
 /* description imports at-rules*/
+@import url(../Blocks/description/description.css);
+@import url(../Blocks/description/__brief/_title/description__brief_title.css);
+@import url(../Blocks/description/__brief/description__brief);
+@import url(../Blocks/description/__paragraph/description__paragraph.css);
+@import url(../Blocks/description/__main-text/description__main-text.css);
+@import url(../Blocks/description/__span-accent/description__span-accent.css);
 
-.two-columns{
-  margin:auto;
-  width: 80%;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
-.two-columns__brief{
-  width: 175px;
-  justify-content: flex-start;
-}
 
-.two-columns__brief--title{
-  margin: 0px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2F80ED;
 
-}
 
-.two-columns__main--text{
-  margin: 0px;
-  width: 80%;
-  min-width: 784px;
-}
 
-.two-columns__paragraph{
-  margin: 0;
-  padding-bottom: 30px;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
 
-.two-columns__paragraph:last-child{
-  margin: 0;
-  padding-bottom: 0;
-}
-
-.two-columns__span-accent{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: bold;
-}
 
 .digits{
   position: relative;
