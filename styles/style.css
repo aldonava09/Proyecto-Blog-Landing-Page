@@ -11,20 +11,35 @@
 @import url(../Blocks/header/__main-illustration/header__main-ilustration.css);
 @import url(../Blocks/header/__square-pic/header__square-pic.css);
 
-
 /* description imports at-rules*/
-@import url(../Blocks/description/description.css);
-@import url(../Blocks/description/__brief/_title/description__brief_title.css);
-@import url(../Blocks/description/__brief/description__brief);
-@import url(../Blocks/description/__paragraph/description__paragraph.css);
-@import url(../Blocks/description/__main-text/description__main-text.css);
-@import url(../Blocks/description/__span-accent/description__span-accent.css);
-
-
-
+@import url(../Blocks/two-columns/two-columns.css);
+@import url(../Blocks/two-columns/__brief/_title/two-columns__brief_title.css);
+@import url(../Blocks/two-columns/__brief/two-columns__brief);
+@import url(../Blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../Blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../Blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /* techniques imports at-rules*/
 @import url(../Blocks/techniques/techniques.css);
+@import url(../Blocks/techniques/__cards/techniques__cards.css);
+@import url(../Blocks/techniques/__cards/_items/techniques__cards_items.css);
+@import url(../Blocks/techniques/__cards/_images/techniques__cards_image.css);
+@import url(../Blocks/techniques/__cards/_title/techniques__cards_title.css);
+@import url(../Blocks/techniques/__cards/_description/techniques__cards_description.css);
+
+/* video imports at-rules*/
+@import url(../Blocks/video/video.css);
+@import url(../Blocks/video/__iframe/video__iframe.css);
+@import url(../Blocks/video/__iframe/_id/video__iframe_id);
+
+/* oakley imports at-rules*/
+@import url(../Blocks/oakley/oakley.css);
+@import url(../Blocks/two-columns/two-columns.css);
+@import url(../Blocks/two-columns/__brief/_title/two-columns__brief_title.css);
+@import url(../Blocks/two-columns/__brief/two-columns__brief);
+@import url(../Blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../Blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../Blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /* feynman*/
 
