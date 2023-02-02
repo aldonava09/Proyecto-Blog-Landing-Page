@@ -8,5 +8,5 @@
   top: 64px;
   right: 0px;
   transform: rotate(-15deg);
-  animation: rotation 20s infinite linear;
+  animation: rotation-left 20s infinite linear;
 }

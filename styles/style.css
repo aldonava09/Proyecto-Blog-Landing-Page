@@ -64,29 +64,17 @@
 
 
 /* khan imports at-rules*/
-.khan{
-  background-color: #F2F2F2;
-  min-height: 700px;
-  display: flex;
-}
-*{
-  outline: 2px solid blue;
-}
-.khan__container{
-  width: 80%;
-  margin: auto;
-  outline: 2px solid #1F1F1F;
-  min-height: 500px;
-}
+@import url(../Blocks/khan/khan.css);
+@import url(../Blocks/khan/__container/khan__container.css);
+@import url(../Blocks/khan/__author/khan__author.css);
+@import url(../Blocks/khan/__title/khan__title.css);
+@import url(../Blocks/khan/__quote/khan__quote.css);
+@import url(../Blocks/khan/__quote/_author/khan__quote_author.css);
+@import url(../Blocks/khan/__quote/_author/_subline/khan__quote_author_subline.css);
+@import url(../Blocks/khan/__book-container/khan__book-container.css);
+@import url(../Blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../Blocks/khan/__buy-link/khan__buy-link.css);
 
-.khan__book-container{
-  display: inline-block;
-  width: 100px;
-}
-.khan__book-pic{
-  width="620px"
-  height="40px"
-}
 /* kaufman imports at-rules*/
 .kaufman{
   background-color: #1F1F1F;
@@ -102,6 +90,7 @@
   position: absolute;
   top: -25px;
   right: -124px;
+  animation: rotation-right 20s infinite linear;
 }
 
 .section__title_theme_dark{
