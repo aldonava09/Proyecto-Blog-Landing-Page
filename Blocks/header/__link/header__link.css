@@ -1,9 +1,6 @@
+@import url(../../link-opacity/link-opacity.css);
+
 .header__link{
   text-decoration: none;
   color: #2F80ED;
-}
-
-.header__link:hover{
-  opacity: .5;
-  transition: opacity 1s linear;
 }
