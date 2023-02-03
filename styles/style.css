@@ -100,87 +100,14 @@
 @import url(../Blocks/resources/__logo/resources__logo.css);
 
 /*footer imports at-rules*/
-.footer{
-  background-color: #1F1F1F;
-  display: flex;
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-
-.footer__column{
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content:space-around;
-  min-height: 350px;
-}
-
-.footer__column_content_copyright{
-  flex-basis: 711px;
-  display: flex;
-  position: relative;
-}
-.logo_place_footer{
-  width: 183px;
-  height: 35px;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.footer__author{
-  color: #F2F2F2;
-  position: absolute;
-  left: 0;
-  bottom: 18px;
-  margin-top: 18px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__column_content_about{
-  display: flex;
-  position: relative;
-  flex-direction: column;
-}
-
-.footer__column-heading{
-  color: #F2F2F2;
-  margin: 0;
-  margin-bottom: 20px;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.footer__list{
-  display: flex;
-  list-style-type: none;
-  margin-left: 0px;
-  margin: 0px;
-  padding: 0px;
-  flex-direction: column;
-}
-
-.footer__column_content_social{
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__social-icons{
-  width: 16px;
-  height: 16px;
-  display: flex;
-  margin-right: 16px;
-  align-self: center;
-}
-
-.footer__column-link{
-  display: flex;
-  text-decoration: none;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  color: #F2F2F2;
-}
+@import url(../Blocks/footer/footer.css);
+@import url(../Blocks/footer/__column/footer__column.css);
+@import url(../Blocks/footer/__column/_content/_copyright/footer__column_content_copyright.css);
+@import url(../Blocks/footer/__logo/footer__logo_place_footer.css);
+@import url(../Blocks/footer/__author/footer__author.css);
+@import url(../Blocks/footer/__column/_content/_about/footer__column_content_about.css);
+@import url(../Blocks/footer/__column/_heading/footer__column_heading.css);
+@import url(../Blocks/footer/__list/footer__list.css);
+@import url(../Blocks/footer/__column/_content/_social/footer__column_content_social.css);
+@import url(../Blocks/footer/__social/_icons/footer__social_icons.css);
+@import url(../Blocks/footer/__column/_link/footer__column_link.css);

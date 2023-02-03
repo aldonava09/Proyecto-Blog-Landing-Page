@@ -1,0 +1,9 @@
+@import url(../../../link-opacity/link-opacity.css);
+
+.footer__social-icons{
+  width: 16px;
+  height: 16px;
+  display: flex;
+  margin-right: 16px;
+  align-self: center;
+}

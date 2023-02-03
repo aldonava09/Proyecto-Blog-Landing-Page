@@ -1,0 +1,10 @@
+@import url(../../../link-opacity/link-opacity.css);
+
+.footer__column-link{
+  display: flex;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #F2F2F2;
+}
