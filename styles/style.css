@@ -1,3 +1,6 @@
+/* vendor imports at-rules*/
+@import url(../vendor/normalize.css);
+
 /* root imports at-rules*/
 @import url(../Blocks/root/root.css);
 
@@ -48,8 +51,6 @@
 @import url(../Blocks/feynman/__link/feynman__link.css);
 @import url(../Blocks/feynman/__image/feynman__image.css);
 
-
-
 /* digits imports at-rules*/
 @import url(../section-title/section__title.css);
 @import url(../section-title/__text/section__title-text.css);
@@ -61,7 +62,6 @@
 @import url(../Blocks/table/__cell/table__cell.css);
 @import url(../Blocks/table/__heading/table__heading.css);
 @import url(../Blocks/table/__text/table__text.css);
-
 
 /* khan imports at-rules*/
 @import url(../Blocks/khan/khan.css);
@@ -87,8 +87,6 @@
 @import url(../Blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
 @import url(../Blocks/table/__heading/_theme_dark/table__heading_theme_dark.css);
 @import url(../Blocks/table/__text/_theme_dark/table__text_theme_dark.css);
-
-
 
 /*resources imports at-rules*/
 @import url(../section-title/section__title.css);
