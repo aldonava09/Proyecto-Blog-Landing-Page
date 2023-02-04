@@ -1,5 +1,3 @@
-@import url(../../link-opacity/link-opacity.css);
-
 .feynman__link{
   color: #2F80ED;
   line-height: 51px;
@@ -11,4 +9,3 @@
   top: 50%;
   right: 48px;
 }
-

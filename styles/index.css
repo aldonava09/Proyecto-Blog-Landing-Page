@@ -4,6 +4,12 @@
 /* root imports at-rules*/
 @import url(../Blocks/root/root.css);
 
+/* rotation imports at-rules*/
+@import url(../Blocks/rotation/rotation.css);
+
+/* link-opacity imports at-rules*/
+@import url(../Blocks/link-opacity/link-opacity.css);
+
 /* header imports at-rules*/
 @import url(../Blocks/logo/logo.css);
 @import url(../Blocks/logo/__header/logo__header.css);
@@ -23,6 +29,10 @@
 @import url(../Blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /* techniques imports at-rules*/
+@import url(../Blocks/section-title/section__title.css);
+@import url(../Blocks/section-title/__text/section__title-text.css);
+@import url(../Blocks/section-subtitle/section__subtitle.css);
+@import url(../Blocks/section-subtitle/__text/section__subtitle-text.css);
 @import url(../Blocks/techniques/techniques.css);
 @import url(../Blocks/techniques/__cards/techniques__cards.css);
 @import url(../Blocks/techniques/__cards/_items/techniques__cards_items.css);
@@ -31,6 +41,10 @@
 @import url(../Blocks/techniques/__cards/_description/techniques__cards_description.css);
 
 /* video imports at-rules*/
+@import url(../Blocks/section-title/section__title.css);
+@import url(../Blocks/section-title/__text/section__title-text.css);
+@import url(../Blocks/section-subtitle/section__subtitle.css);
+@import url(../Blocks/section-subtitle/__text/section__subtitle-text.css);
 @import url(../Blocks/video/video.css);
 @import url(../Blocks/video/__iframe/video__iframe.css);
 @import url(../Blocks/video/__iframe/_left/video__iframe_left.css);
@@ -53,10 +67,10 @@
 @import url(../Blocks/feynman/__image/feynman__image.css);
 
 /* digits imports at-rules*/
-@import url(../section-title/section__title.css);
-@import url(../section-title/__text/section__title-text.css);
-@import url(../section-subtitle/section__subtitle.css);
-@import url(../section-subtitle/__text/section__subtitle-text.css);
+@import url(../Blocks/section-title/section__title.css);
+@import url(../Blocks/section-title/__text/section__title-text.css);
+@import url(../Blocks/section-subtitle/section__subtitle.css);
+@import url(../Blocks/section-subtitle/__text/section__subtitle-text.css);
 @import url(../Blocks/digits/digits.css);
 @import url(../Blocks/table/__list/table__list.css);
 @import url(../Blocks/table/__ul/table__ul.css);
@@ -90,10 +104,10 @@
 @import url(../Blocks/table/__text/_theme_dark/table__text_theme_dark.css);
 
 /*resources imports at-rules*/
-@import url(../section-title/section__title.css);
-@import url(../section-title/__text/section__title-text.css);
-@import url(../section-subtitle/section__subtitle.css);
-@import url(../section-subtitle/__text/section__subtitle-text.css);
+@import url(../Blocks/section-title/section__title.css);
+@import url(../Blocks/section-title/__text/section__title-text.css);
+@import url(../Blocks/section-subtitle/section__subtitle.css);
+@import url(../Blocks/section-subtitle/__text/section__subtitle-text.css);
 @import url(../Blocks/resources/__logo/_zone/resources__logo_zone.css);
 @import url(../Blocks/resources/__logo/_link/resources__logo_link.css);
 @import url(../Blocks/resources/__logo/resources__logo.css);
