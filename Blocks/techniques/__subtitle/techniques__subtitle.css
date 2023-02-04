@@ -1,0 +1,7 @@
+.techniques__subtitle{
+  display: flex;
+  margin: auto;
+  width: 60%;
+  justify-content: center;
+  margin-bottom: 0px;
+}

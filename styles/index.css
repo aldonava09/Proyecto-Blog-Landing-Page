@@ -21,18 +21,18 @@
 @import url(../Blocks/header/__square-pic/header__square-pic.css);
 
 /* description imports at-rules*/
-@import url(../Blocks/two-columns/two-columns.css);
-@import url(../Blocks/two-columns/__brief/_title/two-columns__brief_title.css);
-@import url(../Blocks/two-columns/__brief/two-columns__brief);
-@import url(../Blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../Blocks/two-columns/__main-text/two-columns__main-text.css);
-@import url(../Blocks/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../Blocks/description/__two-columns/description__two-columns.css);
+@import url(../Blocks/description/__two-columns/_brief/description__two-columns_brief.css);
+@import url(../Blocks/description/__two-columns/_brief/_title/description__two-columns_brief_title.css);
+@import url(../Blocks/description/__two-columns/_paragraph/description__two-columns_paragraph.css);
+@import url(../Blocks/description/__two-columns/_main-text/description__two-columns_main-text.css);
+@import url(../Blocks/description/__two-columns/_span-accent/description__two-columns_span-accent.css);
 
 /* techniques imports at-rules*/
-@import url(../Blocks/section-title/section__title.css);
-@import url(../Blocks/section-title/__text/section__title-text.css);
-@import url(../Blocks/section-subtitle/section__subtitle.css);
-@import url(../Blocks/section-subtitle/__text/section__subtitle-text.css);
+@import url(../Blocks/techniques/__title/techniques__title.css);
+@import url(../Blocks/techniques/__title/_text/techniques__title-text.css);
+@import url(../Blocks/techniques/__subtitle/techniques__subtitle.css);
+@import url(../Blocks/techniques/__subtitle/__text/techniques__subtitle-text.css);
 @import url(../Blocks/techniques/techniques.css);
 @import url(../Blocks/techniques/__cards/techniques__cards.css);
 @import url(../Blocks/techniques/__cards/_items/techniques__cards_items.css);
@@ -41,10 +41,10 @@
 @import url(../Blocks/techniques/__cards/_description/techniques__cards_description.css);
 
 /* video imports at-rules*/
-@import url(../Blocks/section-title/section__title.css);
-@import url(../Blocks/section-title/__text/section__title-text.css);
-@import url(../Blocks/section-subtitle/section__subtitle.css);
-@import url(../Blocks/section-subtitle/__text/section__subtitle-text.css);
+@import url(../Blocks/video/__title/video__title.css);
+@import url(../Blocks/video/__title/_text/video__title-text.css);
+@import url(../Blocks/video/__subtitle/video__subtitle.css);
+@import url(../Blocks/video/__subtitle/__text/video__subtitle-text.css);
 @import url(../Blocks/video/video.css);
 @import url(../Blocks/video/__iframe/video__iframe.css);
 @import url(../Blocks/video/__iframe/_left/video__iframe_left.css);
@@ -52,12 +52,12 @@
 
 /* oakley imports at-rules*/
 @import url(../Blocks/oakley/oakley.css);
-@import url(../Blocks/two-columns/two-columns.css);
-@import url(../Blocks/two-columns/__brief/_title/two-columns__brief_title.css);
-@import url(../Blocks/two-columns/__brief/two-columns__brief);
-@import url(../Blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../Blocks/two-columns/__main-text/two-columns__main-text.css);
-@import url(../Blocks/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../Blocks/oakley/__two-columns/oakley__two-columns.css);
+@import url(../Blocks/oakley/__two-columns/_brief/oakley__two-columns_brief.css);
+@import url(../Blocks/oakley/__two-columns/_brief/_title/oakley__two-columns_brief_title.css);
+@import url(../Blocks/oakley/__two-columns/_paragraph/oakley__two-columns_paragraph.css);
+@import url(../Blocks/oakley/__two-columns/_main-text/oakley__two-columns_main-text.css);
+@import url(../Blocks/oakley/__two-columns/_span-accent/oakley__two-columns_span-accent.css);
 
 /* feynman imports at-rules*/
 @import url(../Blocks/feynman/feynman.css);
@@ -67,10 +67,10 @@
 @import url(../Blocks/feynman/__image/feynman__image.css);
 
 /* digits imports at-rules*/
-@import url(../Blocks/section-title/section__title.css);
-@import url(../Blocks/section-title/__text/section__title-text.css);
-@import url(../Blocks/section-subtitle/section__subtitle.css);
-@import url(../Blocks/section-subtitle/__text/section__subtitle-text.css);
+@import url(../Blocks/digits/__title/digits__title.css);
+@import url(../Blocks/digits/__title/__text/digits__title-text.css);
+@import url(../Blocks/digits/__subtitle/digits__subtitle.css);
+@import url(../Blocks/digits/__subtitle/__text/digits__subtitle-text.css);
 @import url(../Blocks/digits/digits.css);
 @import url(../Blocks/table/__list/table__list.css);
 @import url(../Blocks/table/__ul/table__ul.css);
@@ -93,10 +93,10 @@
 /* kaufman imports at-rules*/
 @import url(../Blocks/kaufman/kaufman.css);
 @import url(../Blocks/kaufman/__image/kaufman__image.css);
-@import url(../Blocks/section-title/_theme_dark/section-title_theme_dark.css);
-@import url(../Blocks/section-title/__text/_theme_dark/section__title-text_theme_dark.css);
-@import url(../Blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
-@import url(../Blocks/section-subtitle/__text/_theme_dark/section-subtitle__text_theme_dark.css);
+@import url(../Blocks/kaufman/__title/_theme_dark/kaufman__title_theme_dark.css);
+@import url(../Blocks/kaufman/__title/_text/_theme_dark/kaufman__title_text_theme_dark.css);
+@import url(../Blocks/kaufman/__subtitle/_theme_dark/kaufman__subtitle_theme_dark.css);
+@import url(../Blocks/kaufman/__subtitle/_text/_theme_dark/kaufman__subtitle_text_theme_dark.css);
 @import url(../Blocks/table/__div/table__div_theme_dark.css);
 @import url(../Blocks/table/__ul/_theme_dark/table__ul_theme_dark.css);
 @import url(../Blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
@@ -104,10 +104,10 @@
 @import url(../Blocks/table/__text/_theme_dark/table__text_theme_dark.css);
 
 /*resources imports at-rules*/
-@import url(../Blocks/section-title/section__title.css);
-@import url(../Blocks/section-title/__text/section__title-text.css);
-@import url(../Blocks/section-subtitle/section__subtitle.css);
-@import url(../Blocks/section-subtitle/__text/section__subtitle-text.css);
+@import url(../Blocks/resources/__title/resources__title.css);
+@import url(../Blocks/resources/__title/__text/resources__title-text.css);
+@import url(../Blocks/resources/__subtitle/resources__subtitle.css);
+@import url(../Blocks/resources/__subtitle/__text/resources__subtitle-text.css);
 @import url(../Blocks/resources/__logo/_zone/resources__logo_zone.css);
 @import url(../Blocks/resources/__logo/_link/resources__logo_link.css);
 @import url(../Blocks/resources/__logo/resources__logo.css);
