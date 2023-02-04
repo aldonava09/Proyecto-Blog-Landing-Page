@@ -22,11 +22,11 @@
 
 /* description imports at-rules*/
 @import url(../Blocks/description/__two-columns/description__two-columns.css);
-@import url(../Blocks/description/__two-columns/_brief/description__two-columns_brief.css);
-@import url(../Blocks/description/__two-columns/_brief/_title/description__two-columns_brief_title.css);
-@import url(../Blocks/description/__two-columns/_paragraph/description__two-columns_paragraph.css);
-@import url(../Blocks/description/__two-columns/_main-text/description__two-columns_main-text.css);
-@import url(../Blocks/description/__two-columns/_span-accent/description__two-columns_span-accent.css);
+@import url(../Blocks/description/__brief/description__brief.css);
+@import url(../Blocks/description/__brief/_title/description__brief_title.css);
+@import url(../Blocks/description/__main-text/description__main-text.css);
+@import url(../Blocks/description/__paragraph/description__paragraph.css);
+@import url(../Blocks/description/__span-accent/description__span-accent.css);
 
 /* techniques imports at-rules*/
 @import url(../Blocks/techniques/__title/techniques__title.css);

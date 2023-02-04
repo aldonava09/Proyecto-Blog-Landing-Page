@@ -1,4 +1,4 @@
-.description__two-columns_paragraph{
+.description__paragraph{
   margin: 0;
   padding-bottom: 30px;
   line-height: 34px;
@@ -6,7 +6,7 @@
   font-weight: normal;
 }
 
-.description__two-columns_paragraph:last-child{
+.description__paragraph:last-child{
   margin: 0;
   padding-bottom: 0;
 }
