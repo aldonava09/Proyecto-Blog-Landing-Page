@@ -1,11 +1,8 @@
-.table__ul{
+.kaufman__ul_theme_dark{
   padding: 0px;
   width: 1100px;
   display: flex;
   margin: auto;
+  margin-top: 80px;
   justify-content: space-between;
-}
-
-.table__ul-second-row{
-  margin-top: 60px;
 }

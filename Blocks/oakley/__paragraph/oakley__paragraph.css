@@ -1,4 +1,4 @@
-.oakley__two-columns_paragraph{
+.oakley__paragraph{
   margin: 0;
   padding-bottom: 30px;
   line-height: 34px;
@@ -6,7 +6,7 @@
   font-weight: normal;
 }
 
-.oakley__two-columns_paragraph:last-child{
+.oakley__paragraph:last-child{
   margin: 0;
   padding-bottom: 0;
 }

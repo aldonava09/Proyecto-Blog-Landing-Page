@@ -53,11 +53,10 @@
 /* oakley imports at-rules*/
 @import url(../Blocks/oakley/oakley.css);
 @import url(../Blocks/oakley/__two-columns/oakley__two-columns.css);
-@import url(../Blocks/oakley/__two-columns/_brief/oakley__two-columns_brief.css);
-@import url(../Blocks/oakley/__two-columns/_brief/_title/oakley__two-columns_brief_title.css);
-@import url(../Blocks/oakley/__two-columns/_paragraph/oakley__two-columns_paragraph.css);
-@import url(../Blocks/oakley/__two-columns/_main-text/oakley__two-columns_main-text.css);
-@import url(../Blocks/oakley/__two-columns/_span-accent/oakley__two-columns_span-accent.css);
+@import url(../Blocks/oakley/__brief/oakley__brief.css);
+@import url(../Blocks/oakley/__brief/_title/oakley__brief_title.css);
+@import url(../Blocks/oakley/__main-text/oakley__main-text.css);
+@import url(../Blocks/oakley/__paragraph/oakley__paragraph.css);
 
 /* feynman imports at-rules*/
 @import url(../Blocks/feynman/feynman.css);
@@ -67,16 +66,16 @@
 @import url(../Blocks/feynman/__image/feynman__image.css);
 
 /* digits imports at-rules*/
+@import url(../Blocks/digits/digits.css);
 @import url(../Blocks/digits/__title/digits__title.css);
 @import url(../Blocks/digits/__title/__text/digits__title-text.css);
 @import url(../Blocks/digits/__subtitle/digits__subtitle.css);
 @import url(../Blocks/digits/__subtitle/__text/digits__subtitle-text.css);
-@import url(../Blocks/digits/digits.css);
-@import url(../Blocks/table/__list/table__list.css);
-@import url(../Blocks/table/__ul/table__ul.css);
-@import url(../Blocks/table/__cell/table__cell.css);
-@import url(../Blocks/table/__heading/table__heading.css);
-@import url(../Blocks/table/__text/table__text.css);
+@import url(../Blocks/digits/__list/digits__list.css);
+@import url(../Blocks/digits/__ul/digits__ul.css);
+@import url(../Blocks/digits/__cell/digits__cell.css);
+@import url(../Blocks/digits/__heading/digits__heading.css);
+@import url(../Blocks/digits/__text/digits__text.css);
 
 /* khan imports at-rules*/
 @import url(../Blocks/khan/khan.css);
@@ -97,11 +96,11 @@
 @import url(../Blocks/kaufman/__title/_text/_theme_dark/kaufman__title_text_theme_dark.css);
 @import url(../Blocks/kaufman/__subtitle/_theme_dark/kaufman__subtitle_theme_dark.css);
 @import url(../Blocks/kaufman/__subtitle/_text/_theme_dark/kaufman__subtitle_text_theme_dark.css);
-@import url(../Blocks/table/__div/table__div_theme_dark.css);
-@import url(../Blocks/table/__ul/_theme_dark/table__ul_theme_dark.css);
-@import url(../Blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
-@import url(../Blocks/table/__heading/_theme_dark/table__heading_theme_dark.css);
-@import url(../Blocks/table/__text/_theme_dark/table__text_theme_dark.css);
+@import url(../Blocks/kaufman/__div/_theme_dark/kaufman__div_theme_dark.css);
+@import url(../Blocks/kaufman/__ul/_theme_dark/kaufman__ul_theme_dark.css);
+@import url(../Blocks/kaufman/__cell/_theme_dark/kaufman__cell_theme_dark.css);
+@import url(../Blocks/kaufman/__heading/_theme_dark/kaufman__heading_theme_dark.css);
+@import url(../Blocks/kaufman/__text/_theme_dark/kaufman__text_theme_dark.css);
 
 /*resources imports at-rules*/
 @import url(../Blocks/resources/__title/resources__title.css);

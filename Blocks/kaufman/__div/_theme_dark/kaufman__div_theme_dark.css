@@ -1,4 +1,4 @@
-.table__div_theme_dark{
+.kaufman__div_theme_dark{
   width: 1100px;
   margin: auto;
   z-index: 300;
@@ -6,5 +6,4 @@
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin-bottom: 90px;
 }

@@ -1,0 +1,11 @@
+.digits__ul{
+  padding: 0px;
+  width: 1100px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.digits__ul-second-row{
+  margin-top: 60px;
+}
