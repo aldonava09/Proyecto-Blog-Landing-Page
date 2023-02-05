@@ -63,7 +63,7 @@
 @import url(../Blocks/feynman/__title/feynman__title.css);
 @import url(../Blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../Blocks/feynman/__link/feynman__link.css);
-@import url(../Blocks/feynman/__image/feynman__image.css);
+@import url(../Blocks/feynman/__image/feynman__img.css);
 
 /* digits imports at-rules*/
 @import url(../Blocks/digits/digits.css);
