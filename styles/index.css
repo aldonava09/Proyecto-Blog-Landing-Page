@@ -92,15 +92,15 @@
 /* kaufman imports at-rules*/
 @import url(../Blocks/kaufman/kaufman.css);
 @import url(../Blocks/kaufman/__image/kaufman__image.css);
-@import url(../Blocks/kaufman/__title/_theme_dark/kaufman__title_theme_dark.css);
-@import url(../Blocks/kaufman/__title/_text/_theme_dark/kaufman__title_text_theme_dark.css);
-@import url(../Blocks/kaufman/__subtitle/_theme_dark/kaufman__subtitle_theme_dark.css);
-@import url(../Blocks/kaufman/__subtitle/_text/_theme_dark/kaufman__subtitle_text_theme_dark.css);
-@import url(../Blocks/kaufman/__div/_theme_dark/kaufman__div_theme_dark.css);
-@import url(../Blocks/kaufman/__ul/_theme_dark/kaufman__ul_theme_dark.css);
-@import url(../Blocks/kaufman/__cell/_theme_dark/kaufman__cell_theme_dark.css);
-@import url(../Blocks/kaufman/__heading/_theme_dark/kaufman__heading_theme_dark.css);
-@import url(../Blocks/kaufman/__text/_theme_dark/kaufman__text_theme_dark.css);
+@import url(../Blocks/kaufman/__title-theme-dark/kaufman__title-theme-dark.css);
+@import url(../Blocks/kaufman/__title-theme-dark/__title-text-theme-dark/kaufman__title-text-theme-dark.css);
+@import url(../Blocks/kaufman/__subtitle-theme-dark/kaufman__subtitle-theme-dark.css);
+@import url(../Blocks/kaufman/__subtitle-theme-dark/__subtitle-text-theme-dark/kaufman__subtitle-text-theme-dark.css);
+@import url(../Blocks/kaufman/__div-theme-dark/kaufman__div-theme-dark.css);
+@import url(../Blocks/kaufman/__ul-theme-dark/kaufman__ul-theme-dark.css);
+@import url(../Blocks/kaufman/__cell-theme-dark/kaufman__cell-theme-dark.css);
+@import url(../Blocks/kaufman/__heading-theme-dark/kaufman__heading-theme-dark.css);
+@import url(../Blocks/kaufman/__text-theme-dark/kaufman__text-theme-dark.css);
 
 /*resources imports at-rules*/
 @import url(../Blocks/resources/__title/resources__title.css);
