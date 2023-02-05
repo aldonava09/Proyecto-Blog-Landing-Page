@@ -114,12 +114,12 @@
 /*footer imports at-rules*/
 @import url(../Blocks/footer/footer.css);
 @import url(../Blocks/footer/__column/footer__column.css);
-@import url(../Blocks/footer/__column/_content/_copyright/footer__column_content_copyright.css);
-@import url(../Blocks/footer/__logo/footer__logo_place_footer.css);
+@import url(../Blocks/footer/__column/_content/_copyright/footer__column-content-copyright.css);
+@import url(../Blocks/footer/__logo/footer__logo.css);
 @import url(../Blocks/footer/__author/footer__author.css);
-@import url(../Blocks/footer/__column/_content/_about/footer__column_content_about.css);
-@import url(../Blocks/footer/__column/_heading/footer__column_heading.css);
+@import url(../Blocks/footer/__column/_content/_about/footer__column-content-about.css);
+@import url(../Blocks/footer/__column/_heading/footer__column-heading.css);
 @import url(../Blocks/footer/__list/footer__list.css);
-@import url(../Blocks/footer/__column/_content/_social/footer__column_content_social.css);
-@import url(../Blocks/footer/__social/_icons/footer__social_icons.css);
-@import url(../Blocks/footer/__column/_link/footer__column_link.css);
+@import url(../Blocks/footer/__column/_content/_social/footer__column-content-social.css);
+@import url(../Blocks/footer/__social-icons/footer__social-icons.css);
+@import url(../Blocks/footer/__column/_link/footer__column-link.css);
