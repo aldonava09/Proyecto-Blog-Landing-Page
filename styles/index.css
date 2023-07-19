@@ -123,3 +123,6 @@
 @import url(../Blocks/footer/__column/_content/_social/footer__column-content-social.css);
 @import url(../Blocks/footer/__social-icons/footer__social-icons.css);
 @import url(../Blocks/footer/__column/_link/footer__column-link.css);
+
+/*media-queries imports at-rules*/
+@import url(../Blocks/media-queries/media-queries.css);

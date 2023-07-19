@@ -1,0 +1,61 @@
+@media screen and (max-width:500px) {
+    .header{
+        width: 100%;
+    }
+    
+    .header__logo{
+        margin-left: 4.7%;
+    }
+
+    .popup{
+        top: 320px;
+        width: 70%;
+        bottom: auto;
+    }
+
+    .profile{
+        width: 90%;
+        flex-wrap: wrap;
+        margin-bottom: 8%;
+    }
+
+    .profile__image-container{
+        width: 55%;
+        height: 160px;
+        margin: auto;
+    }
+
+    .profile__info{
+        margin-left: 4%;
+        width: 82.5%;
+    }
+
+    .profile__edit-button{
+        width: 9%;
+        margin: 0;
+        margin-top: 3.7%;
+    }
+
+    .profile__add-button-container{
+        position: static;
+        margin: auto;
+        margin-top: 7%;
+        width: 80%;
+    }
+
+    .cards{   
+        grid-template-columns: 280px;
+        grid-auto-rows: 361px;
+        grid-gap: 20px;
+        margin-bottom: 5%;    
+    }
+
+    .images-popup__item{
+        top: 450px;
+        bottom: auto;
+    }
+
+    .footer{
+        width: 100%;
+    }
+}
