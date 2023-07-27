@@ -1,12 +1,8 @@
 .root {
-  min-width: 100%;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
+  width: fit-content;
   max-width: 1440px;
-  /* here we've set a maximum page width */
   margin: 0;
   padding: 0;
-  /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   box-sizing: border-box;
   margin: auto;
